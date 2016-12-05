@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<config xmlns="http://thelia.net/schema/dic/config"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://thelia.net/schema/dic/config http://thelia.net/schema/dic/config/thelia-1.0.xsd">
+
+    <loops>
+        <loop name="is_express_checkout_customer" class="ExpressCheckout\Loop\IsExpressCustomer" />
+    </loops>
+
+    <forms>
+        <form name="expresscheckout.customer_express_registration" class="ExpressCheckout\Form\CustomerExpressRegistration" />
+    </forms>
+</config>
